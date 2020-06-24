@@ -1,0 +1,72 @@
+ship "Quarg Skylark"
+	attributes
+		"engine capacity" 98
+		"outfit space" 435
+		"required crew" 29
+		"weapon capacity" 126
+		bunks 50
+		category "Light Freighter"
+		cost 35334000
+		drag 6.1
+		hull 59000
+		mass 360
+		shields 100000
+	engine -9.5 93.5
+	engine 9.5 93.5
+	outfits
+		"Fluxion Shield Generator"
+		"Intrusion Countermeasures" 29
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skydagger" 2
+		"Small Graviton Thruster"
+		"Tachyon Core"
+	turret -49.5 52 "Quarg Skydagger"
+	turret -72.5 52 "Quarg Anti-Missile"
+	turret 49.5 52 "Quarg Skydagger"
+	turret 72.5 52 "Quarg Anti-Missile"
+ship "Quarg Wardragon"
+	"final explode" "final explosion small"
+	attributes
+		"cargo space" 10
+		"engine capacity" 101
+		"heat dissipation" .6
+		"outfit space" 555
+		"required crew" 56
+		bunks 98
+		category "Light Warship"
+		cost 39260000
+		drag 4.8
+		hull 49400
+		mass 330
+		shields 121000
+		weapon
+			"blast radius" 120
+			"hit force" 1800
+			"hull damage" 600
+			"shield damage" 1200
+	engine -13 79
+	engine 13 79
+	explode "huge explosion" 20
+	explode "large explosion" 40
+	explode "medium explosion" 30
+	explode "small explosion" 16
+	explode "tiny explosion" 12
+	outfits
+		"Infimum Shield Generator"
+		"Intrusion Countermeasures" 56
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+		"Singularity Core"
+		"Small Graviton Thruster"
+	turret -31.5 -19 "Quarg Skylance"
+	turret -39 56.5 "Quarg Anti-Missile"
+	turret 31.5 -19 "Quarg Skylance"
+	turret 39 56.5 "Quarg Anti-Missile"

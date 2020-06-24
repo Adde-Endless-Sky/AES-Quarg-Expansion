@@ -1,0 +1,5 @@
+system Omnis
+	add object "Quarg Balaur"
+		distance 11000
+		offset -4
+		sprite ship/quarg_balaur
