@@ -1,7 +1,7 @@
 ship "Quarg Archdragon"
 	attributes
-		"cargo space" 32
-		"engine capacity" 217
+		"cargo space" 30
+		"engine capacity" 210
 		"fuel capacity" 1000
 		"heat dissipation" .48
 		"outfit space" 900
@@ -11,21 +11,18 @@ ship "Quarg Archdragon"
 		category "Heavy Warship"
 		cost 113782000
 		drag 12.3
-		hull 124000
+		hull 120000
 		mass 850
 		ramscoop 10
-		shields 305000
+		shields 300000
 	outfits
-		"Central Repair Hub"
-		"Fluxion Shield Generator"
+		"Antimatter Core"
 		"Intrusion Countermeasures" 84
 		"Jump Drive"
-		"Large Graviton Thruster"
-		"Medium Graviton Steering"
+		"Medium Graviton Steering" 2
+		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
 		"Quantum Shield Generator"
-		"Singularity Core"
 ship "Quarg Balaur"
 	"final explode" "final explosion huge"
 	attributes
@@ -35,9 +32,9 @@ ship "Quarg Balaur"
 		"fuel capacity" 2200
 		"heat dissipation" .27
 		"ion resistance" 86000
-		"outfit space" 4975
+		"outfit space" 4970
 		"required crew" 808
-		"weapon capacity" 1278
+		"weapon capacity" 1270
 		bunks 3362
 		category "Heavy Warship"
 		cooling 45
@@ -46,7 +43,7 @@ ship "Quarg Balaur"
 		hull 1740000
 		mass 13470
 		ramscoop 14
-		shields 3238000
+		shields 3230000
 		weapon
 			"blast radius" 470
 			"hit force" 2800
@@ -61,91 +58,83 @@ ship "Quarg Balaur"
 	explode "medium explosion" 38
 	explode "large explosion" 54
 	explode "huge explosion" 32
-	gun -30 -947 "Quarg Ranseur"
-	gun -50 -942 "Quarg Ranseur"
+	gun -30 -947
+	gun -50 -942
 	gun 0 -942
-	gun 0 -947 "Quarg Ranseur"
-	gun 30 -947 "Quarg Ranseur"
-	gun 50 -942 "Quarg Ranseur"
+	gun 0 -947
+	gun 30 -947
+	gun 50 -942
 	outfits
-		"Antimatter Core" 7
-		"Central Repair Hub" 13
-		"Intrusion Countermeasures" 1362
-		"Jump Drive"
-		"Large Graviton Steering"
-		"Large Graviton Thruster" 2
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster" 3
+		"Quarg Skylance" 14
+		"Quarg Anti-Missile" 10
+		"Antimatter Core" 8
 		"Nanotech Battery" 7
-		"Peripheral Repair Hub" 4
-		"Quantum Shield Generator" 9
-		"Quarg Anti-Missile" 5
-		"Quarg Ranseur" 5
-		"Quarg Skydagger" 8
-		"Quarg Skylance" 12
-		"Small Graviton Thruster"
+		"Quantum Shield Generator" 12
+		"Intrusion Countermeasures" 1362
+		"Medium Graviton Thruster" 5
+		"Medium Graviton Steering" 4
+		"Jump Drive"
 	sprite ship/quarg_balaur
 	thumbnail thumbnail/quarg_balaur
-	turret -90 -539 "Quarg Skydagger"
-	turret -90 -580 "Quarg Skydagger"
 	turret -102 760 "Quarg Anti-Missile"
 	turret -140 -266 "Quarg Skylance"
 	turret -140 -266 "Quarg Skylance"
 	turret -146 46 "Quarg Anti-Missile"
-	turret -156 758 "Quarg Skydagger"
-	turret -156 758 "Quarg Skydagger"
+	turret -156 758 "Quarg Anti-Missile"
+	turret -156 758 "Quarg Anti-Missile"
 	turret -167 -214 "Quarg Skylance"
 	turret -167 -214 "Quarg Skylance"
 	turret -198 45 "Quarg Skylance"
 	turret -198 45 "Quarg Skylance"
-	turret 0 -431 "Quarg Anti-Missile"
-	turret 90 -539 "Quarg Skydagger"
-	turret 90 -580 "Quarg Skydagger"
+	turret -90 -539 "Quarg Skylance"
+	turret -90 -580 "Quarg Anti-Missile"
+	turret 0 -431
 	turret 102 760 "Quarg Anti-Missile"
 	turret 140 -266 "Quarg Skylance"
 	turret 140 -266 "Quarg Skylance"
 	turret 146 46 "Quarg Anti-Missile"
-	turret 156 758 "Quarg Skydagger"
-	turret 156 758 "Quarg Skydagger"
+	turret 156 758 "Quarg Anti-Missile"
+	turret 156 758 "Quarg Anti-Missile"
 	turret 167 -214 "Quarg Skylance"
 	turret 167 -214 "Quarg Skylance"
 	turret 198 45 "Quarg Skylance"
 	turret 198 45 "Quarg Skylance"
+	turret 90 -539 "Quarg Skylance"
+	turret 90 -580 "Quarg Anti-Missile"
 ship "Quarg Cormorant"
 	attributes
-		"cargo space" 46
-		"engine capacity" 182
+		"cargo space" 40
+		"engine capacity" 130
 		"fuel capacity" 1200
 		"heat dissipation" .67
 		"outfit space" 500
 		"required crew" 61
-		"weapon capacity" 143
+		"weapon capacity" 140
 		bunks 404
 		category Transport
 		cost 49667000
 		drag 7.5
-		hull 66000
+		hull 60000
 		mass 490
 		ramscoop 10
-		shields 73000
+		shields 70000
 	outfits
+		"Antimatter Core"
 		"Intrusion Countermeasures" 57
 		"Jump Drive"
-		"Large Graviton Steering"
-		"Large Graviton Thruster"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
 		"Quantum Shield Generator"
-		"Tachyon Core"
 ship "Quarg Guan"
 	attributes
-		"cargo space" 2963
-		"engine capacity" 138
+		"cargo space" 2960
+		"engine capacity" 130
 		"fuel capacity" 1600
 		"heat dissipation" .47
-		"outfit space" 632
+		"outfit space" 630
 		"required crew" 78
-		"weapon capacity" 186
+		"weapon capacity" 180
 		bunks 102
 		category "Heavy Freighter"
 		cost 86373000
@@ -153,22 +142,19 @@ ship "Quarg Guan"
 		hull 100000
 		mass 1100
 		ramscoop 10
-		shields 129000
+		shields 130000
 	outfits
-		"Central Repair Hub"
-		"Infimum Shield Generator"
+		"Antimatter Core"
 		"Intrusion Countermeasures" 69
 		"Jump Drive"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
-		"Quantum Shield Generator"
-		"Tachyon Core"
+		"Quantum Shield Generator" 2
 ship "Quarg Hydra"
 	attributes
-		"cargo space" 19
-		"engine capacity" 110
+		"cargo space" 20
+		"engine capacity" 120
 		"fuel capacity" 1000
 		"heat dissipation" .52
 		"outfit space" 680
@@ -178,22 +164,21 @@ ship "Quarg Hydra"
 		category "Medium Warship"
 		cost 82441000
 		drag 8.6
-		hull 95000
+		hull 90000
 		mass 610
 		ramscoop 10
-		shields 194000
+		shields 190000
 	outfits
+		"Antimatter Core"
 		"Intrusion Countermeasures" 55
 		"Jump Drive"
+		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
 		"Quantum Shield Generator"
-		"Singularity Core"
-		"Small Graviton Steering"
 ship "Quarg Lindwyrm"
 	attributes
-		"cargo space" 17
+		"cargo space" 20
 		"engine capacity" 170
 		"fuel capacity" 800
 		"heat dissipation" .55
@@ -204,75 +189,40 @@ ship "Quarg Lindwyrm"
 		category "Medium Warship"
 		cost 77955000
 		drag 5.2
-		hull 73000
+		hull 70000
 		mass 440
 		ramscoop 10
-		shields 172000
+		shields 170000
 	outfits
+		"Antimatter Core"
 		"Intrusion Countermeasures" 62
 		"Jump Drive"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
 		"Quantum Shield Generator"
-		"Singularity Core"
 ship "Quarg Merganser"
 	attributes
-		"cargo space" 1453
-		"engine capacity" 122
+		"cargo space" 1450
+		"engine capacity" 120
 		"fuel capacity" 1600
 		"heat dissipation" .5
-		"outfit space" 585
+		"outfit space" 580
 		"required crew" 58
-		"weapon capacity" 173
+		"weapon capacity" 170
 		bunks 97
 		category "Heavy Freighter"
 		cost 68566000
 		drag 9.2
-		hull 84000
+		hull 80000
 		mass 710
 		ramscoop 10
-		shields 126000
+		shields 120000
 	outfits
-		"Central Repair Hub"
-		"Fluxion Shield Generator"
+		"Antimatter Core"
 		"Intrusion Countermeasures" 49
 		"Jump Drive"
+		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Peripheral Repair Hub"
-		"Quantum Shield Generator"
-		"Small Graviton Steering"
-		"Tachyon Core"
-ship "Quarg Oriole"
-	attributes
-		"cargo space" 60
-		"engine capacity" 86
-		"fuel capacity" 1200
-		"heat dissipation" .7
-		"outfit space" 376
-		"required crew" 32
-		"weapon capacity" 98
-		bunks 56
-		category "Light Warship"
-		cost 33960000
-		drag 2.8
-		hull 45000
-		mass 260
-		ramscoop 10
-		shields 94500
-		weapon
-			"blast radius" 100
-			"hit force" 1500
-			"hull damage" 500
-			"shield damage" 1000
-	outfits
-		"Fluxion Shield Generator"
-		"Intrusion Countermeasures" 32
-		"Jump Drive"
-		"Nanotech Battery"
-		"Peripheral Repair Hub"
-		"Small Graviton Steering"
-		"Small Graviton Thruster"
-		"Tachyon Core"
+		"Quantum Shield Generator" 2

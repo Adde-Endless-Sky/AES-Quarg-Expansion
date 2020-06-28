@@ -6,7 +6,6 @@ shipyard experimental
 	"Quarg Hydra"
 	"Quarg Lindwyrm"
 	"Quarg Merganser"
-	"Quarg Oriole"
 shipyard quarg
 	"Quarg Archdragon"
 	"Quarg Balaur"
@@ -15,4 +14,3 @@ shipyard quarg
 	"Quarg Hydra"
 	"Quarg Lindwyrm"
 	"Quarg Merganser"
-	"Quarg Oriole"
