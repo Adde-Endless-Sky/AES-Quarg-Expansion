@@ -1,10 +1,10 @@
-fleet quarg_balaur
-	government "Unknown "
+fleet "quarg balaur"
+	government "arena"
 	personality
 		heroic
 	variant
 		"Quarg Balaur"
-fleet quarg_defence
+fleet "quarg defence"
 	government Quarg
 	personality
 		forbearing
@@ -21,7 +21,7 @@ fleet quarg_defence
 	variant 4
 		"Quarg Skylark" 2
 		"Quarg Wardragon" 5
-fleet quarg_ring_defence
+fleet "quarg ring defence"
 	government Quarg
 	personality
 		forbearing

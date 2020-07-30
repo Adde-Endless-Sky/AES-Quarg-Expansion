@@ -1,20 +1,20 @@
 ship "Quarg Archdragon"
 	attributes
-		"cargo space" 30
-		"engine capacity" 210
-		"fuel capacity" 1000
-		"heat dissipation" .48
-		"outfit space" 900
-		"required crew" 113
-		"weapon capacity" 430
-		bunks 136
 		category "Heavy Warship"
 		cost 113782000
-		drag 12.3
-		hull 120000
-		mass 850
-		ramscoop 10
 		shields 300000
+		hull 120000
+		"required crew" 113
+		bunks 136
+		mass 850
+		drag 12.3
+		"heat dissipation" .48
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 900
+		"weapon capacity" 430
+		"engine capacity" 210
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 84
@@ -24,71 +24,66 @@ ship "Quarg Archdragon"
 		"Nanotech Battery"
 		"Quantum Shield Generator"
 ship "Quarg Balaur"
-	"final explode" "final explosion huge"
+	sprite ship/quarg_balaur
+	thumbnail thumbnail/quarg_balaur
 	attributes
-		"active cooling" 161
-		"cargo space" 1290
-		"engine capacity" 580
-		"fuel capacity" 2200
-		"heat dissipation" .27
-		"ion resistance" 86000
-		"outfit space" 4970
-		"required crew" 808
-		"weapon capacity" 1270
-		bunks 3362
 		category "Heavy Warship"
-		cooling 45
 		cost 2376400000
-		drag 66.2
-		hull 1740000
-		mass 13470
-		ramscoop 14
 		shields 3230000
+		hull 1740000
+		"required crew" 808
+		bunks 3362
+		mass 13470
+		drag 66.2
+		"heat dissipation" .27
+		"fuel capacity" 2200
+		"cargo space" 1290
+		"outfit space" 4970
+		"weapon capacity" 1270
+		"engine capacity" 580
+		"active cooling" 161
+		"ion resistance" 86000
+		cooling 45
+		ramscoop 14
 		weapon
 			"blast radius" 470
-			"hit force" 2800
-			"hull damage" 1300
 			"shield damage" 2100
-	description "The Balaur is a Quarg capital ship, responsible for the coordination and leadership of some of the fiercest fleets of ships that roam the Milky Way."
+			"hull damage" 1300
+			"hit force" 2800
+	outfits
+		"Antimatter Core" 8
+		"Intrusion Countermeasures" 1362
+		"Jump Drive"
+		"Medium Graviton Steering" 4
+		"Medium Graviton Thruster" 5
+		"Nanotech Battery" 7
+		"Quantum Shield Generator" 12
+		"Quarg Anti-Missile" 10
+		"Quarg Skylance" 14
 	engine -109.6 917.6 2.2
 	engine 0 939 5.5
 	engine 109.6 917.6 2.2
-	explode "tiny explosion" 22
-	explode "small explosion" 30
-	explode "medium explosion" 38
-	explode "large explosion" 54
-	explode "huge explosion" 32
-	gun -30 -947
 	gun -50 -942
-	gun 0 -942
+	gun -30 -947
+	gun 0 -947
 	gun 0 -947
 	gun 30 -947
 	gun 50 -942
-	outfits
-		"Quarg Skylance" 14
-		"Quarg Anti-Missile" 10
-		"Antimatter Core" 8
-		"Nanotech Battery" 7
-		"Quantum Shield Generator" 12
-		"Intrusion Countermeasures" 1362
-		"Medium Graviton Thruster" 5
-		"Medium Graviton Steering" 4
-		"Jump Drive"
-	sprite ship/quarg_balaur
-	thumbnail thumbnail/quarg_balaur
-	turret -102 760 "Quarg Anti-Missile"
-	turret -140 -266 "Quarg Skylance"
-	turret -140 -266 "Quarg Skylance"
+	turret -198 45 "Quarg Skylance"
+	turret -198 45 "Quarg Skylance"
+	turret -167 -214 "Quarg Skylance"
+	turret -167 -214 "Quarg Skylance"
+	turret -156 758 "Quarg Anti-Missile"
+	turret -156 758 "Quarg Anti-Missile"
 	turret -146 46 "Quarg Anti-Missile"
-	turret -156 758 "Quarg Anti-Missile"
-	turret -156 758 "Quarg Anti-Missile"
-	turret -167 -214 "Quarg Skylance"
-	turret -167 -214 "Quarg Skylance"
-	turret -198 45 "Quarg Skylance"
-	turret -198 45 "Quarg Skylance"
-	turret -90 -539 "Quarg Skylance"
+	turret -140 -266 "Quarg Skylance"
+	turret -140 -266 "Quarg Skylance"
+	turret -102 760 "Quarg Anti-Missile"
 	turret -90 -580 "Quarg Anti-Missile"
+	turret -90 -539 "Quarg Skylance"
 	turret 0 -431
+	turret 90 -539 "Quarg Skylance"
+	turret 90 -580 "Quarg Anti-Missile"
 	turret 102 760 "Quarg Anti-Missile"
 	turret 140 -266 "Quarg Skylance"
 	turret 140 -266 "Quarg Skylance"
@@ -99,25 +94,30 @@ ship "Quarg Balaur"
 	turret 167 -214 "Quarg Skylance"
 	turret 198 45 "Quarg Skylance"
 	turret 198 45 "Quarg Skylance"
-	turret 90 -539 "Quarg Skylance"
-	turret 90 -580 "Quarg Anti-Missile"
+	explode "tiny explosion" 22
+	explode "small explosion" 30
+	explode "medium explosion" 38
+	explode "large explosion" 54
+	explode "huge explosion" 32
+	"final explode" "final explosion huge"
+	description "The Balaur is a Quarg capital ship, responsible for the coordination and leadership of some of the fiercest fleets of ships that roam the Milky Way."
 ship "Quarg Cormorant"
 	attributes
-		"cargo space" 40
-		"engine capacity" 130
-		"fuel capacity" 1200
-		"heat dissipation" .67
-		"outfit space" 500
-		"required crew" 61
-		"weapon capacity" 140
-		bunks 404
 		category Transport
 		cost 49667000
-		drag 7.5
-		hull 60000
-		mass 490
-		ramscoop 10
 		shields 70000
+		hull 60000
+		"required crew" 61
+		bunks 404
+		mass 490
+		drag 7.5
+		"heat dissipation" .67
+		"fuel capacity" 1200
+		"cargo space" 40
+		"outfit space" 500
+		"weapon capacity" 140
+		"engine capacity" 130
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 57
@@ -128,21 +128,21 @@ ship "Quarg Cormorant"
 		"Quantum Shield Generator"
 ship "Quarg Guan"
 	attributes
-		"cargo space" 2960
-		"engine capacity" 130
-		"fuel capacity" 1600
-		"heat dissipation" .47
-		"outfit space" 630
-		"required crew" 78
-		"weapon capacity" 180
-		bunks 102
 		category "Heavy Freighter"
 		cost 86373000
-		drag 10.9
-		hull 100000
-		mass 1100
-		ramscoop 10
 		shields 130000
+		hull 100000
+		"required crew" 78
+		bunks 102
+		mass 1100
+		drag 10.9
+		"heat dissipation" .47
+		"fuel capacity" 1600
+		"cargo space" 2960
+		"outfit space" 630
+		"weapon capacity" 180
+		"engine capacity" 130
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 69
@@ -153,21 +153,21 @@ ship "Quarg Guan"
 		"Quantum Shield Generator" 2
 ship "Quarg Hydra"
 	attributes
-		"cargo space" 20
-		"engine capacity" 120
-		"fuel capacity" 1000
-		"heat dissipation" .52
-		"outfit space" 680
-		"required crew" 89
-		"weapon capacity" 350
-		bunks 118
 		category "Medium Warship"
 		cost 82441000
-		drag 8.6
-		hull 90000
-		mass 610
-		ramscoop 10
 		shields 190000
+		hull 90000
+		"required crew" 89
+		bunks 118
+		mass 610
+		drag 8.6
+		"heat dissipation" .52
+		"fuel capacity" 1000
+		"cargo space" 20
+		"outfit space" 680
+		"weapon capacity" 350
+		"engine capacity" 120
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 55
@@ -178,21 +178,21 @@ ship "Quarg Hydra"
 		"Quantum Shield Generator"
 ship "Quarg Lindwyrm"
 	attributes
-		"cargo space" 20
-		"engine capacity" 170
-		"fuel capacity" 800
-		"heat dissipation" .55
-		"outfit space" 650
-		"required crew" 74
-		"weapon capacity" 320
-		bunks 115
 		category "Medium Warship"
 		cost 77955000
-		drag 5.2
-		hull 70000
-		mass 440
-		ramscoop 10
 		shields 170000
+		hull 70000
+		"required crew" 74
+		bunks 115
+		mass 440
+		drag 5.2
+		"heat dissipation" .55
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 650
+		"weapon capacity" 320
+		"engine capacity" 170
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 62
@@ -203,21 +203,21 @@ ship "Quarg Lindwyrm"
 		"Quantum Shield Generator"
 ship "Quarg Merganser"
 	attributes
-		"cargo space" 1450
-		"engine capacity" 120
-		"fuel capacity" 1600
-		"heat dissipation" .5
-		"outfit space" 580
-		"required crew" 58
-		"weapon capacity" 170
-		bunks 97
 		category "Heavy Freighter"
 		cost 68566000
-		drag 9.2
-		hull 80000
-		mass 710
-		ramscoop 10
 		shields 120000
+		hull 80000
+		"required crew" 58
+		bunks 97
+		mass 710
+		drag 9.2
+		"heat dissipation" .5
+		"fuel capacity" 1600
+		"cargo space" 1450
+		"outfit space" 580
+		"weapon capacity" 170
+		"engine capacity" 120
+		ramscoop 10
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 49
