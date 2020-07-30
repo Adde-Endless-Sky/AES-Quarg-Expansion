@@ -1,6 +1,0 @@
-planet "Quarg Balaur"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "quarg balaur"

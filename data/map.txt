@@ -1,0 +1,39 @@
+---------------------
+# PLANETS AES-OMNIS #
+---------------------
+
+planet "Quarg Balaur"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "quarg balaur"
+
+--------------------
+# OVERRIDE PLANETS #
+--------------------
+
+planet "Alta Hai"
+	tribute 38000
+		fleet "quarg ring defence" 4
+		threshold 61000
+
+planet "Kuwaru Efreti"
+	tribute 57000
+		fleet "quarg ring defence" 5
+		threshold 76000
+		
+planet Lagrange
+	tribute 12400
+		fleet "quarg defence" 2
+		threshold 34000
+
+----------------------
+# OVERRIDE AES-OMNIS #
+----------------------
+
+system Omnis
+	add object "Quarg Balaur"
+		distance 11000
+		offset -4
+		sprite ship/quarg_balaur

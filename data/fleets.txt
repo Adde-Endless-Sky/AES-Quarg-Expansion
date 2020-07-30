@@ -1,9 +1,7 @@
-fleet "quarg balaur"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Quarg Balaur"
+----------
+# FLEETS #
+----------
+
 fleet "quarg defence"
 	government Quarg
 	personality
@@ -21,6 +19,7 @@ fleet "quarg defence"
 	variant 4
 		"Quarg Skylark" 2
 		"Quarg Wardragon" 5
+
 fleet "quarg ring defence"
 	government Quarg
 	personality
@@ -41,3 +40,14 @@ fleet "quarg ring defence"
 		"Quarg Balaur"
 		"Quarg Skylark" 4
 		"Quarg Wardragon" 11
+
+--------------------
+# FLEETS AES-OMNIS #
+--------------------
+
+fleet "quarg balaur"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Quarg Balaur"
