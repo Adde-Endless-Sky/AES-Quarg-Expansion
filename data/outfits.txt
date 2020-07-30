@@ -1,0 +1,8 @@
+------------
+# OVERRIDE #
+------------
+
+outfit "Medium Graviton Thruster"
+	"reverse thrust" 80
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 10
