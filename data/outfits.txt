@@ -1,6 +1,6 @@
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 outfit "Medium Graviton Thruster"
 	"reverse thrust" 80

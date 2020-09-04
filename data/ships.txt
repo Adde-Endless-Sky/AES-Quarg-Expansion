@@ -1,6 +1,6 @@
--------------
-# TRANSPORT #
--------------
+# -------------
+#   TRANSPORT
+# -------------
 
 ship "Quarg Cormorant"
 	attributes
@@ -28,9 +28,9 @@ ship "Quarg Cormorant"
 		"Nanotech Battery"
 		"Quantum Shield Generator"
 
--------------------
-# HEAVY FREIGHTER #
--------------------
+# -------------------
+#   HEAVY FREIGHTER
+# -------------------
 
 ship "Quarg Guan"
 	attributes
@@ -84,9 +84,9 @@ ship "Quarg Merganser"
 		"Nanotech Battery"
 		"Quantum Shield Generator" 2
 
-------------------
-# MEDIUM WARSHIP #
-------------------
+# ------------------
+#   MEDIUM WARSHIP
+# ------------------
 
 ship "Quarg Hydra"
 	attributes
@@ -140,9 +140,9 @@ ship "Quarg Lindwyrm"
 		"Nanotech Battery"
 		"Quantum Shield Generator"
 
------------------
-# HEAVY WARSHIP #
------------------
+# -----------------
+#   HEAVY WARSHIP
+# -----------------
 
 ship "Quarg Archdragon"
 	attributes
@@ -249,9 +249,9 @@ ship "Quarg Balaur"
 	"final explode" "final explosion huge"
 	description "The Balaur is a Quarg capital ship, responsible for the coordination and leadership of some of the fiercest fleets of ships that roam the Milky Way."
 
-----------------------
-# OVERRIDE AES-OMNIS #
-----------------------
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
 
 shipyard experimental
 	"Quarg Archdragon"
