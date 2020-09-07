@@ -84,6 +84,60 @@ ship "Quarg Merganser"
 		"Nanotech Battery"
 		"Quantum Shield Generator" 2
 
+# -----------------
+#   LIGHT WARSHIP
+# -----------------
+
+ship "Quarg Chiwen"
+	sprite ship/quarg_chiwen
+	thumbnail thumbnail/quarg_chiwen
+	attributes
+		category "Light Warship"
+		cost 4400000
+		shields 110000
+		hull 40000
+		"required crew" 120
+		bunks 145
+		mass 320
+		drag 8.9
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 580
+		"weapon capacity" 180
+		"engine capacity" 150
+		"hull repair rate" 4
+		"hull energy" 4
+		ramscoop 14
+		weapon
+			"blast radius" 180
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 7
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 1
+	engine -14 47
+	engine 14 47
+	gun -10 -32.5
+	gun 10 -32.5
+	turret 0 -1 "Quarg Skylance"
+	turret -18 37.5 "Quarg Anti-Missile"
+	turret 18 37.5 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 14
+	explode "medium explosion" 24
+	explode "large explosion" 24
+	explode "huge explosion" 18
+	"final explode" "final explosion medium"
+
 # ------------------
 #   MEDIUM WARSHIP
 # ------------------
@@ -249,6 +303,18 @@ ship "Quarg Balaur"
 	"final explode" "final explosion huge"
 	description "The Balaur is a Quarg capital ship, responsible for the coordination and leadership of some of the fiercest fleets of ships that roam the Milky Way."
 
+# ------------
+#   OVERRIDE
+# ------------
+
+ship "Quarg Skylark"
+	attributes
+		category "Medium Warship"
+
+ship "Quarg Wardragon"
+	attributes
+		category "Medium Warship"
+
 # ----------------------
 #   OVERRIDE AES-OMNIS
 # ----------------------
@@ -256,6 +322,7 @@ ship "Quarg Balaur"
 shipyard experimental
 	"Quarg Archdragon"
 	"Quarg Balaur"
+	"Quarg Chiwen"
 	"Quarg Cormorant"
 	"Quarg Guan"
 	"Quarg Hydra"
@@ -265,6 +332,7 @@ shipyard experimental
 shipyard quarg
 	"Quarg Archdragon"
 	"Quarg Balaur"
+	"Quarg Chiwen"
 	"Quarg Cormorant"
 	"Quarg Guan"
 	"Quarg Hydra"
