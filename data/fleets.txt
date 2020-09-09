@@ -52,9 +52,9 @@ fleet "quarg balaur"
 	variant
 		"Quarg Balaur"
 
-fleet "quarg chiwen"
+fleet "quarg oriole"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Quarg Chiwen"
+		"Quarg Oriole"

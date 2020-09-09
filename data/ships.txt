@@ -88,9 +88,9 @@ ship "Quarg Merganser"
 #   LIGHT WARSHIP
 # -----------------
 
-ship "Quarg Chiwen"
-	sprite ship/quarg_chiwen
-	thumbnail thumbnail/quarg_chiwen
+ship "Quarg Oriole"
+	sprite ship/quarg_oriole
+	thumbnail thumbnail/quarg_oriole
 	attributes
 		category "Light Warship"
 		cost 4400000
@@ -322,19 +322,19 @@ ship "Quarg Wardragon"
 shipyard experimental
 	"Quarg Archdragon"
 	"Quarg Balaur"
-	"Quarg Chiwen"
 	"Quarg Cormorant"
 	"Quarg Guan"
 	"Quarg Hydra"
 	"Quarg Lindwyrm"
 	"Quarg Merganser"
+	"Quarg Oriole"
 	
 shipyard quarg
 	"Quarg Archdragon"
 	"Quarg Balaur"
-	"Quarg Chiwen"
 	"Quarg Cormorant"
 	"Quarg Guan"
 	"Quarg Hydra"
 	"Quarg Lindwyrm"
 	"Quarg Merganser"
+	"Quarg Oriole"

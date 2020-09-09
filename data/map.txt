@@ -9,12 +9,12 @@ planet "Quarg Balaur"
 		threshold 0
 		fleet "quarg balaur"
 
-planet "Quarg Chiwen"
+planet "Quarg Oriole"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "quarg chiwen"
+		fleet "quarg oriole"
 
 # --------------------
 #   OVERRIDE PLANETS
@@ -44,7 +44,7 @@ system Omnis
 		distance 11000
 		offset -4
 		sprite ship/quarg_balaur
-	add object "Quarg Chiwen"
+	add object "Quarg Oriole"
 		distance 11000
 		offset -6
-		sprite ship/quarg_chiwen
+		sprite ship/quarg_oriole
