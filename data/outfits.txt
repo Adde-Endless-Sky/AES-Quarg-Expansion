@@ -1,6 +1,15 @@
-# ------------
-#   OVERRIDE
-# ------------
+# --------------------
+#   OVERRIDE TURRETS
+# --------------------
+
+outfit "Quarg Anti-Missile"
+	weapon
+		"anti-missile" 30
+		"velocity" 750
+
+# --------------------
+#   OVERRIDE ENGINES
+# --------------------
 
 outfit "Medium Graviton Thruster"
 	"reverse thrust" 80
