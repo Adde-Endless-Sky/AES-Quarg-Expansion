@@ -102,35 +102,33 @@ ship "Quarg Oriole"
 		drag 2.8
 		"heat dissipation" .7
 		"fuel capacity" 1200
+		ramscoop 10
 		"cargo space" 60
-		"outfit space" 580
-		"weapon capacity" 180
-		"engine capacity" 150
-		"hull repair rate" 4
-		"hull energy" 4
-		ramscoop 14
+		"outfit space" 376
+		"weapon capacity" 98
+		"engine capacity" 86
 		weapon
 			"blast radius" 180
 			"shield damage" 1000
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Antimatter Core"
-		"Intrusion Countermeasures" 7
+		"Fluxion Shield Generator"
+		"Intrusion Countermeasures" 32
 		"Jump Drive"
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Quantum Shield Generator"
-		"Quarg Anti-Missile" 2
-		"Quarg Skylance" 1
+		"Peripheral Repair Hub"
+		"Quarg Ranseur"
+		"Quarg Skydagger" 2
+		"Small Graviton Steering"
+		"Small Graviton Thruster"
+		"Tachyon Core"
 	engine -14 47
 	engine 14 47
-	gun -10 -32.5
-	gun 10 -32.5
-	turret 0 -1 "Quarg Skylance"
-	turret -18 37.5 "Quarg Anti-Missile"
-	turret 18 37.5 "Quarg Anti-Missile"
+	gun 0 -70 "Quarg Ranseur"
+	turret 0 -1
+	turret -18 37.5 "Quarg Skydagger"
+	turret 18 37.5 "Quarg Skydagger"
 	explode "tiny explosion" 12
 	explode "small explosion" 14
 	explode "medium explosion" 24
@@ -317,6 +315,20 @@ ship "Quarg Skylark"
 		"bunks" 50
 		"mass" 360
 		"drag" 6.1
+		"outfit space" 435
+		"weapon capacity" 126
+		"engine capacity" 98
+	outfits
+		"Fluxion Shield Generator"
+		"Intrusion Countermeasures" 29
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skydagger" 2
+		"Small Graviton Thruster"
+		"Tachyon Core"
 
 ship "Quarg Wardragon"
 	attributes
@@ -332,6 +344,20 @@ ship "Quarg Wardragon"
 		"fuel capacity" 800
 		"ramscoop" 10
 		"cargo space" 10
+		"outfit space" 555
+		"weapon capacity" 200
+		"engine capacity" 101
+	outfits
+		"Infimum Shield Generator"
+		"Intrusion Countermeasures" 56
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+		"Singularity Core"
+		"Small Graviton Thruster"
 
 # ----------------------
 #   OVERRIDE AES-OMNIS

@@ -47,12 +47,14 @@ fleet "quarg scout"
 	personality
 		forbearing
 		opportunistic
-	variant
+	variant 3
 		"Quarg Oriole"
+	variant 2
+		"Quarg Oriole" 2
 
-# ------------
-#   OVERRIDE
-# ------------
+# -------------------
+#   OVERRIDE FLEETS
+# -------------------
 
 fleet "Quarg"
 	add variant
