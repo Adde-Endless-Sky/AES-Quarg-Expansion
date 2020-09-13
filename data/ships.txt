@@ -251,45 +251,49 @@ ship "Quarg Balaur"
 			"hit force" 2800
 	outfits
 		"Antimatter Core" 8
+		"Central Repair Hub" 21
 		"Intrusion Countermeasures" 1362
 		"Jump Drive"
-		"Medium Graviton Steering" 4
-		"Medium Graviton Thruster" 5
+		"Large Graviton Steering" 3
+		"Large Graviton Thruster" 3
+		"Medium Graviton Thruster"
 		"Nanotech Battery" 7
-		"Quantum Shield Generator" 12
-		"Quarg Anti-Missile" 10
-		"Quarg Skylance" 14
+		"Quantum Shield Generator" 4
+		"Quarg Anti-Missile" 11
+		"Quarg Ranseur" 5
+		"Quarg Skydagger" 8
+		"Quarg Skylance" 6
 	engine -109.6 917.6 2.2
 	engine 109.6 917.6 2.2
 	engine 0 939 5.5
-	gun -30 -947
+	gun -30 -947 "Quarg Ranseur"
 	gun 0 -947
-	gun 0 -947
-	gun 30 -947
-	gun -50 -942
-	gun 50 -942
-	turret -90 -580 "Quarg Anti-Missile"
-	turret 90 -580 "Quarg Anti-Missile"
-	turret -90 -539 "Quarg Skylance"
-	turret 90 -539 "Quarg Skylance"
-	turret 0 -431
-	turret -140 -266 "Quarg Skylance"
-	turret -140 -266 "Quarg Skylance"
-	turret 140 -266 "Quarg Skylance"
-	turret 140 -266 "Quarg Skylance"
+	gun 0 -947 "Quarg Ranseur"
+	gun 30 -947 "Quarg Ranseur"
+	gun -50 -942 "Quarg Ranseur"
+	gun 50 -942 "Quarg Ranseur"
+	turret -90 -580 "Quarg Skydagger"
+	turret 90 -580 "Quarg Skydagger"
+	turret -90 -539 "Quarg Skydagger"
+	turret 90 -539 "Quarg Skydagger"
+	turret 0 -431 "Quarg Anti-Missile"
+	turret -140 -266 "Quarg Anti-Missile"
+	turret -140 -266 "Quarg Skydagger"
+	turret 140 -266 "Quarg Anti-Missile"
+	turret 140 -266 "Quarg Skydagger"
 	turret -167 -214 "Quarg Skylance"
-	turret -167 -214 "Quarg Skylance"
+	turret -167 -214 "Quarg Skydagger"
 	turret 167 -214 "Quarg Skylance"
-	turret 167 -214 "Quarg Skylance"
+	turret 167 -214 "Quarg Skydagger"
+	turret -198 45 "Quarg Anti-Missile"
 	turret -198 45 "Quarg Skylance"
-	turret -198 45 "Quarg Skylance"
-	turret 198 45 "Quarg Skylance"
+	turret 198 45 "Quarg Anti-Missile"
 	turret 198 45 "Quarg Skylance"
 	turret -146 46 "Quarg Anti-Missile"
 	turret 146 46 "Quarg Anti-Missile"
+	turret -156 758 "Quarg Skylance"
 	turret -156 758 "Quarg Anti-Missile"
-	turret -156 758 "Quarg Anti-Missile"
-	turret 156 758 "Quarg Anti-Missile"
+	turret 156 758 "Quarg Skylance"
 	turret 156 758 "Quarg Anti-Missile"
 	turret -102 760 "Quarg Anti-Missile"
 	turret 102 760 "Quarg Anti-Missile"
