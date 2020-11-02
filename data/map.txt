@@ -1,21 +1,3 @@
-# ---------------------
-#   PLANETS AES-OMNIS
-# ---------------------
-
-planet "Quarg Balaur"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "quarg balaur"
-
-planet "Quarg Oriole"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "quarg oriole"
-
 # --------------------
 #   OVERRIDE SYSTEMS
 # --------------------
@@ -95,17 +77,3 @@ planet Lagrange
 	tribute 12400
 		fleet "quarg defence" 2
 		threshold 34000
-
-# ----------------------
-#   OVERRIDE AES-OMNIS
-# ----------------------
-
-system Omnis
-	add object "Quarg Balaur"
-		distance 11000
-		offset -4
-		sprite ship/quarg_balaur
-	add object "Quarg Oriole"
-		distance 11000
-		offset -6
-		sprite ship/quarg_oriole

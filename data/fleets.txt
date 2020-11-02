@@ -59,21 +59,3 @@ fleet "quarg scout"
 fleet "Quarg"
 	add variant
 		"Quarg Oriole"
-
-# --------------------
-#   FLEETS AES-OMNIS
-# --------------------
-
-fleet "quarg balaur"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Quarg Balaur"
-
-fleet "quarg oriole"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Quarg Oriole"

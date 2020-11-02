@@ -366,18 +366,8 @@ ship "Quarg Wardragon"
 # ----------------------
 #   OVERRIDE AES-OMNIS
 # ----------------------
-
-shipyard experimental
-	"Quarg Archdragon"
-	"Quarg Balaur"
-	"Quarg Cormorant"
-	"Quarg Guan"
-	"Quarg Hydra"
-	"Quarg Lindwyrm"
-	"Quarg Merganser"
-	"Quarg Oriole"
 	
-shipyard quarg
+shipyard "quarg plugins"
 	"Quarg Archdragon"
 	"Quarg Balaur"
 	"Quarg Cormorant"

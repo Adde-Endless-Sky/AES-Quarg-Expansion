@@ -271,21 +271,7 @@ outfit "Medium Graviton Steering"
 #   OVERRIDE AES-OMNIS
 # ----------------------
 
-outfitter "experimental"
-	"Central Repair Hub"
-	"Fluxion Shield Generator"
-	"Infimum Shield Generator"
-	"Large Graviton Steering"
-	"Large Graviton Thruster"
-	"Peripheral Repair Hub"
-	"Quarg Ranseur"
-	"Quarg Skydagger"
-	"Singularity Core"
-	"Small Graviton Steering"
-	"Small Graviton Thruster"
-	"Tachyon Core"
-
-outfitter "quarg"
+outfitter "quarg plugins"
 	"Central Repair Hub"
 	"Fluxion Shield Generator"
 	"Infimum Shield Generator"
