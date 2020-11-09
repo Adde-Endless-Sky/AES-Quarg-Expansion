@@ -303,7 +303,8 @@ ship "Quarg Balaur"
 	explode "large explosion" 54
 	explode "huge explosion" 32
 	"final explode" "final explosion huge"
-	description "The Balaur is a Quarg capital ship, responsible for the coordination and leadership of some of the fiercest fleets of ships that roam the Milky Way."
+	description `The Balaur is the Quarg's ultimate last line of defense, built to guard their ringworlds from any threat. A nigh indestructible defensive platform of a ship, the gargantuan vessel is armed with a unique emitter, a weapon designed to neutralize enemy shields and overwhelm their systems, allowing the Balaur's many Skylances to tear apart opposing forces.`
+	description `	Being the newest Quarg ship, a design only a few thousand years old, the Balaur is also their most powerful, embodying their history of constant improvement, culminating in a ship that's been given legendary durability by brute force alone.`
 
 # ------------------
 #   OVERRIDE SHIPS
