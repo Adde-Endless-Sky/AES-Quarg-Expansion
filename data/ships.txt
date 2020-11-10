@@ -2,7 +2,7 @@
 #   TRANSPORT
 # -------------
 
-ship "Quarg Cormorant"
+ship "Quarg Rhea"
 	attributes
 		category Transport
 		cost 49667000
@@ -58,7 +58,7 @@ ship "Quarg Guan"
 		"Nanotech Battery"
 		"Quantum Shield Generator" 2
 
-ship "Quarg Merganser"
+ship "Quarg Partridge"
 	attributes
 		category "Heavy Freighter"
 		cost 68566000
@@ -371,9 +371,9 @@ ship "Quarg Wardragon"
 shipyard "quarg plugins"
 	"Quarg Archdragon"
 	"Quarg Balaur"
-	"Quarg Cormorant"
 	"Quarg Guan"
 	"Quarg Hydra"
 	"Quarg Lindwyrm"
-	"Quarg Merganser"
 	"Quarg Oriole"
+	"Quarg Partridge"
+	"Quarg Rhea"
