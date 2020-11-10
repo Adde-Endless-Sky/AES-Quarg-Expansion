@@ -296,8 +296,8 @@ ship "Quarg Balaur"
 			"hull damage" 1300
 			"hit force" 2800
 	outfits
-		"Antimatter Core" 10
 		"Central Repair Hub" 7
+		"Dark Matter Core" 3
 		"Dark Matter Pulse"
 		"Intrusion Countermeasures" 237
 		"Jump Drive"
@@ -310,42 +310,42 @@ ship "Quarg Balaur"
 		"Quantum Shield Generator" 7
 		"Quarg Anti-Missile" 5
 		"Quarg Culverin" 4
-		"Quarg Skylance" 22
+		"Quarg Skylance" 20
 		"Small Graviton Thruster"
 	engine -139.5 1147 2.2
 	engine 139.5 1147 2.2
 	engine 0 1176 5.5
-	gun -50.5 -1177.5 "Quarg Ranseur"
-	gun -24 -1177.5 "Quarg Ranseur"
-	gun 0 -1177.5 "Quarg Ranseur"
-	gun 24 -1177.5 "Quarg Ranseur"
-	gun 50.5 -1177.5 "Quarg Ranseur"
-	gun 0 -1163
-	turret -113.5 -724 "Quarg Skydagger"
-	turret 113.5 -724 "Quarg Skydagger"
-	turret -113.5 -673.5 "Quarg Skydagger"
-	turret 113.5 -673.5 "Quarg Skydagger"
+	gun -50.5 -1177.5 "Quarg Culverin"
+	gun -24 -1177.5 "Quarg Culverin"
+	gun 0 -1177.5 "Quarg Culverin"
+	gun 24 -1177.5 "Quarg Culverin"
+	gun 50.5 -1177.5 "Quarg Culverin"
+	gun 0 -1163 "Dark Matter Pulse"
+	turret -113.5 -724 "Quarg Skylance"
+	turret 113.5 -724 "Quarg Skylance"
+	turret -113.5 -673.5 "Quarg Skylance"
+	turret 113.5 -673.5 "Quarg Skylance"
 	turret 0 -540 "Quarg Anti-Missile"
-	turret -175.5 -334 "Quarg Anti-Missile"
-	turret -175.5 -334 "Quarg Skydagger"
-	turret 175.5 -334 "Quarg Anti-Missile"
-	turret 175.5 -334 "Quarg Skydagger"
+	turret -175.5 -334 "Qua"Quarg Skylance"
+	turret -175.5 -334 "Quarg Skylance"
+	turret 175.5 -334 "Qua"Quarg Skylance"
+	turret 175.5 -334 "Quarg Skylance"
 	turret -210 -268 "Quarg Skylance"
-	turret -210 -268 "Quarg Skydagger"
+	turret -210 -268 "Quarg Skylance"
 	turret 210 -268 "Quarg Skylance"
-	turret 210 -268 "Quarg Skydagger"
-	turret -183.5 57.5 "Quarg Anti-Missile"
+	turret 210 -268 "Quarg Skylance"
 	turret -183.5 57.5 "Quarg Skylance"
-	turret 183.5 57.5 "Quarg Anti-Missile"
+	turret -183.5 57.5 "Quarg Skylance"
+	turret 183.5 57.5 "Quarg Skylance"
 	turret 183.5 57.5 "Quarg Skylance"
 	turret -248 57.5 "Quarg Anti-Missile"
 	turret 248 57.5 "Quarg Anti-Missile"
 	turret -197 948 "Quarg Anti-Missile"
 	turret 197 948 "Quarg Anti-Missile"
 	turret -131.5 950 "Quarg Skylance"
-	turret -131.5 950 "Quarg Anti-Missile"
+	turret -131.5 950 "Quarg Skylance"
 	turret 131.5 950 "Quarg Skylance"
-	turret -131.5 950 "Quarg Anti-Missile"
+	turret -131.5 950 "Quarg Skylance"
 	explode "tiny explosion" 22
 	explode "small explosion" 30
 	explode "medium explosion" 38

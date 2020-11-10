@@ -5,7 +5,6 @@
 outfit "Quarg Culverin"
 	category "Guns"
 	cost 10000000
-	thumbnail "outfit/quarg culverin"
 	"mass" 100
 	"outfit space" -100
 	"weapon capacity" -100
@@ -70,7 +69,6 @@ outfit "Quarg Ranseur"
 outfit "Quarg Warfire"
 	category "Guns"
 	cost 6000000
-	thumbnail "outfit/quarg warfire"
 	"mass" 28
 	"outfit space" -28
 	"weapon capacity" -28
@@ -101,7 +99,6 @@ outfit "Quarg Warfire"
 outfit "Quarg Ribault"
 	category "Turrets"
 	cost 9000000
-	thumbnail "outfit/quarg ribault"
 	"mass" 47
 	"outfit space" -47
 	"weapon capacity" -47
@@ -169,7 +166,6 @@ outfit "Quarg Skydagger"
 outfit "Dark Matter Pulse"
 	category "Secondary Weapons"
 	cost 66666666
-	thumbnail "outfit/unknown"
 	"mass" 600
 	"outfit space" -600
 	"weapon capacity" -600
@@ -252,7 +248,6 @@ outfit "Dark Matter 4"
 outfit "Quarg Lucerne"
 	category "Secondary Weapons"
 	cost 5000000
-	thumbnail "outfit/quarg lucerne"
 	"mass" 19
 	"outfit space" -19
 	"weapon capacity" -19
@@ -357,7 +352,6 @@ outfit "Central Repair Hub"
 outfit "Dark Matter Core"
 	category "Power"
 	cost 854254000
-	thumbnail "outfit/dark matter core"
 	"mass" 300
 	"outfit space" -300
 	"energy generation" 311
@@ -451,7 +445,6 @@ outfit "Large Graviton Steering"
 
 outfit "Quarg Armored Matrix"
 	category "Hand to Hand"
-	thumbnail "outfit/armored matrix"
 	"capture attack" 11.7
 	"capture defense" 12.9
 	"energy consumption" 0.02
