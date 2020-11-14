@@ -147,6 +147,8 @@ ship "Quarg Oriole"
 # ------------------
 
 ship "Quarg Hydra"
+	sprite ship/quarg_hydra
+	thumbnail thumbnail/quarg_hydra
 	attributes
 		category "Medium Warship"
 		"cost" 82441000
