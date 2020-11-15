@@ -164,7 +164,7 @@ ship "Quarg Hydra"
 		"cargo space" 19
 		"outfit space" 760
 		"weapon capacity" 350
-		"engine capacity" 110
+		"engine capacity" 122
 	outfits
 		"Antimatter Core"
 		"Central Repair Hub"
@@ -338,9 +338,9 @@ ship "Quarg Balaur"
 	turret -113.5 -673.5 "Quarg Skylance"
 	turret 113.5 -673.5 "Quarg Skylance"
 	turret 0 -540 "Quarg Anti-Missile"
-	turret -175.5 -334 "Qua"Quarg Skylance"
 	turret -175.5 -334 "Quarg Skylance"
-	turret 175.5 -334 "Qua"Quarg Skylance"
+	turret -175.5 -334 "Quarg Skylance"
+	turret 175.5 -334 "Quarg Skylance"
 	turret 175.5 -334 "Quarg Skylance"
 	turret -210 -268 "Quarg Skylance"
 	turret -210 -268 "Quarg Skylance"

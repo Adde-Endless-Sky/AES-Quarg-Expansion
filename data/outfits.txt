@@ -107,7 +107,7 @@ outfit "Quarg Ribault"
 	"active cooling" 11.75
 	"cooling energy" 2.35
 	weapon
-		"hardppoint sprite" "hardpoint/quarg ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
 		"hardpoint offset" 10.
 		sound "ribault"
 		"inaccuracy" 9
@@ -243,7 +243,7 @@ outfit "Dark Matter 4"
 		"hit force" -3
 		"ion damage" 75
 		"heat damage" 75
-		"disruptioon damage" 75
+		"disruption damage" 75
 
 outfit "Quarg Lucerne"
 	category "Secondary Weapons"
