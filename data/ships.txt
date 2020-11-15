@@ -167,22 +167,32 @@ ship "Quarg Hydra"
 		"engine capacity" 110
 	outfits
 		"Antimatter Core"
+		"Central Repair Hub"
+		"Infimum Shield Generator"
 		"Intrusion Countermeasures" 55
 		"Jump Drive"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
-		"Quantum Shield Generator"
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
+		"Quarg Anti-Missile" 3
+		"Quarg Lucerne" 2
+		"Quarg Ranseur" 2
+		"Quarg Skydagger" 3
+	engine -36.5 94
+	engine 36.5 94
+	engine 0 95
+	engine -28 101.5
+	engine 28 101.5
+	gun -14.5 -63.5 "Quarg Ranseur"
+	gun 14.5 -63.5 "Quarg Ranseur"
+	gun -75 45.5 "Quarg Lucerne"
+	gun 75 45.5 "Quarg Lucerne"
+	turret 0 -17.5 "Quarg Skydagger"
+	turret 0 -35.5 "Quarg Anti-Missile"
+	turret -27 64.5 "Quarg Skydagger"
+	turret 27 64.5 "Quarg Skydagger"
+	turret -66.5 73 "Quarg Anti-Missile"
+	turret 66.5 73 "Quarg Anti-Missile"
 	description "Once, when for the first time their Wardragons proved insufficient for dealing with threats, the Quarg decided to simply improve the design, increasing its durability and armament, at the expense of speed and maneuverability."
 	description "	Though they were made more powerful than Wardragons by brute force, the Hydra is much too simple a design, and like its predecessor wasn't particularly effective."
 		
