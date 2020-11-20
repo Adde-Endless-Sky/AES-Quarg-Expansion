@@ -426,17 +426,3 @@ ship "Quarg Wardragon"
 		"Singularity Core"
 		"Small Graviton Thruster"
 	description "Their oldest design for a dedicated warship, Wardragons remained the most powerful ships the Quarg produced for several hundred thousand years, and as per usual for their technology, it has ever so slowly been improved and tweaked over millennia."
-
-# ----------------------
-#   OVERRIDE AES-OMNIS
-# ----------------------
-	
-shipyard "quarg plugins"
-	"Quarg Archdragon"
-	"Quarg Balaur"
-	"Quarg Guan"
-	"Quarg Hydra"
-	"Quarg Lindwyrm"
-	"Quarg Oriole"
-	"Quarg Partridge"
-	"Quarg Rhea"

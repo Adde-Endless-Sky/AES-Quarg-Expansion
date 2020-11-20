@@ -532,28 +532,3 @@ outfit "Medium Graviton Steering"
 outfit "Intrusion Countermeasures"
 	description "Quarg don't posess a great deal of physical strength, so in case they need to protect themselves inside their ships or ringworlds, they employ these small, precise sentries, that fire bursts of concentrated starlight on attackers."
 	description "	In the case of humans, merely witnessing too many of the shots could lead to permanent vision loss."
-
-# ----------------------
-#   OVERRIDE AES-OMNIS
-# ----------------------
-
-outfitter "quarg plugins"
-	"Central Repair Hub"
-	"Dark Matter Core"
-	"Dark Matter Pulse"
-	"Fluxion Shield Generator"
-	"Infimum Shield Generator"
-	"Large Graviton Steering"
-	"Large Graviton Thruster"
-	"Peripheral Repair Hub"
-	"Quarg Armored Matrix"
-	"Quarg Culverin"
-	"Quarg Lucerne"
-	"Quarg Ranseur"
-	"Quarg Ribault"
-	"Quarg Skydagger"
-	"Quarg Warfire"
-	"Singularity Core"
-	"Small Graviton Steering"
-	"Small Graviton Thruster"
-	"Tachyon Core"
