@@ -92,6 +92,8 @@ ship "Quarg Partridge"
 # -----------------
 
 ship "Quarg Drake"
+	attributes
+		category "Light Warship"
 	description "This is a small patrol and scouting vessel, that travel in squadrons so that they can better defend themselves, to prevent the theft of Quarg technology."
 
 ship "Quarg Oriole"
@@ -384,6 +386,8 @@ ship "Quarg Skylark"
 		"outfit space" 435
 		"weapon capacity" 126
 		"engine capacity" 98
+		"hull repair rate" 0
+		"hull energy" 0
 	outfits
 		"Fluxion Shield Generator"
 		"Intrusion Countermeasures" 29
@@ -414,6 +418,8 @@ ship "Quarg Wardragon"
 		"outfit space" 555
 		"weapon capacity" 200
 		"engine capacity" 101
+		"hull repair rate" 0
+		"hull energy" 0
 	outfits
 		"Infimum Shield Generator"
 		"Intrusion Countermeasures" 56
